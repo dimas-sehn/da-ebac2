@@ -11,9 +11,9 @@ with sns.axes_style('darkgrid'):
   )
 
   grafico_gasolina.set(
-      title = 'Preço médio de venda de gasolina na cidade de São Paulo',
-      xlabel = 'Dia',
-      ylabel = 'Preço (R$)'
+      title = 'Valor médio de venda',
+      xlabel = 'Dia_aferido',
+      ylabel = 'Valor (R$)'
   )
 
   figura = grafico_gasolina.get_figure()
